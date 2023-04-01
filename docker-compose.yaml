@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+    pypi:
+        build:
+            context: "./framework"
+            dockerfile: "Dockerfile"
+
+        volumes:
+            - "./framework/app/:/app/"
+        command: "node /app/package/index.js"

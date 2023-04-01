@@ -1,0 +1,23 @@
+{
+  "name": "groupeffect",
+  "version": "1.0.0",
+  "description": "development stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -v",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Groupeffect/groupeffect-npm.git"
+  },
+  "keywords": [
+    "development"
+  ],
+  "author": "Amir Yousefi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Groupeffect/groupeffect-npm/issues"
+  },
+  "homepage": "https://github.com/Groupeffect/groupeffect-npm#readme"
+}
